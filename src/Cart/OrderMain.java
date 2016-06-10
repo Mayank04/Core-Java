@@ -11,6 +11,7 @@ public class OrderMain {
         o.addProduct(new Product("Lemon","Lemon",8,140));
         o.addProduct(new Product("Orange","Oranges",6,140));
         o.addProduct(new Product("Peach","Peaches",3,140));
+        o.addProduct(new Product("Peach","Peaches",5,200));
  
         System.out.println("\nNo. of Product : "+o.productCount());
         System.out.println ("Order Places By: "+o.uid);
